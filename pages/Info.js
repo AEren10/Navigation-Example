@@ -3,7 +3,7 @@ import { View,Text,StyleSheet } from 'react-native';
 
 function Info({route}){
 
-    const {user} = route.params;     // sdece user yapsam niye olmuyo
+    const {user} = route.params;     
     return(
         <View style={styles.container}>
             <Text style={styles.text}>Üye Adı:  {user.userName}</Text>

@@ -1,7 +1,6 @@
 import React,{useState} from "react";
 import { View,Text,StyleSheet, } from "react-native";
 
-
 import Input from "../components/Input/ınput";
 import Button from "../components/Button/Button";
 import { Alert } from "react-native";
@@ -22,11 +21,11 @@ function Register({navigation}){
         }
         user = {
             userName ,
-            userSurname ,      //burayı silsek olur mu
+            userSurname ,      
             userAge ,
             userPost ,     
         }
-        console.log(user)
+        
         navigation.navigate('InfoScreen',{user});      
         
     }
